@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+.venv-build/
+
+# Local application data / sensitive company data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+backups/
+logs/
+*.log
+
+# Secrets / environment
+.env
+.env.*
+*.pem
+*.key
+
+# PyInstaller
+build/
+build_unico/
+dist/
+dist_unico/
+*.spec
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+~$*

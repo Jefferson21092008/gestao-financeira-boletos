@@ -1,0 +1,12 @@
+* text=auto
+
+# Código e documentação versionados com LF
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+
+# Scripts nativos do Windows com CRLF
+*.bat text eol=crlf
